@@ -10,23 +10,18 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+.logo{
+  display: inline-block;
+  width: 50px;
+}
+
+.nav{
+  display:inline-block;
+  width: calc(100% - 54px);
+  text-align: right;
+}
+
 .list-item{
   display:inline;
 }
-.nav{
-  display:inline-block;
-  /* margin-left: auto; */
-  width: 800px;
-}
-.list {
-  display: inline-block;
-  /* margin-left: auto; */
-  
-}
-.list {
-  text-align: right;
-}
-.logo{
-  display: inline;
-  
-}
+
